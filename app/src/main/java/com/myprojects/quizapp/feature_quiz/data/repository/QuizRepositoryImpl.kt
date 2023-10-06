@@ -2,6 +2,8 @@ package com.myprojects.quizapp.feature_quiz.data.repository
 
 import com.myprojects.quizapp.core.util.ErrorMessages
 import com.myprojects.quizapp.core.util.Status
+import com.myprojects.quizapp.feature_quiz.data.mappers.toCategory
+import com.myprojects.quizapp.feature_quiz.data.mappers.toResponse
 import com.myprojects.quizapp.feature_quiz.data.remote.QuizApi
 import com.myprojects.quizapp.feature_quiz.domain.model.Category
 import com.myprojects.quizapp.feature_quiz.domain.model.QuestionInfo
